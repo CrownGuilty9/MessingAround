@@ -10,7 +10,7 @@ bool IsLoggedIn()
   cout << "Enter username: "; cin >> username;
   cout << "Enter password: "; cin >> password;
 
-  ifstream read("data\\" + username + ".txt") //this will be what the username file will be called
+  ifstream read("c:\\" + username + ".txt") //this will be what the username file will be called
   getline(read, un);
   getline(read, pw);
 
