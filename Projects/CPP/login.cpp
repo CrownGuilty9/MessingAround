@@ -28,7 +28,7 @@ int main()
 {
   int choices;
 
-  cout << "1. Register\n2:Login\nYour choice: "; cin >> choices;
+  cout << "1. Register\n2:Login\nWhich option would you like to go with?\nChoice: "; cin >> choices;
   if (choices == 1)
   {
     string username, password;
